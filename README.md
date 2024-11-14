@@ -45,6 +45,18 @@ Layihədə oyuncuların müxtəlif xüsusiyyətləri və onlara aid vizual təhl
 ## Nəticələr və Əlavə Məlumatlar
 Bu layihə nəticəsində oyuncuların fərqli xüsusiyyətləri və bunların dəyərə təsiri haqqında ətraflı təhlillər aparılmışdır. Bu, komandaların transfer siyasətində və oyunçu analizlərində əhəmiyyətli məlumatlar verə bilər. Daha detallı təhlillər üçün `Seaborn` və `Matplotlib` kitabxanalarının digər vizualizasiya metodlarından da istifadə oluna bilər.
 
----
+## Beynəlxalq Reputasiya və Oyuncu Potensialı - İstifadə olunan ayaq arasındakı əlaqə
+- **Strip plot**: Beynəlxalq reputasiya və oyuncu potensialı ilə istifadə olunan ayaq arasındakı əlaqəni göstərmək üçün `stripplot()` istifadə olunmuşdur. `hue` parametri ilə fərqli ayaqları göstərən rəngli göstərici əlavə edilmişdir.
+- **Boxplot**: Bu əlaqəni daha aydın göstərmək üçün `boxplot()` funksiyası ilə qrafik qurulmuşdur.
+
+## Oyuncuların Potensialları və Gücləri arasındakı əlaqə
+- **Lineplot**: Oyuncuların potensial və gücləri arasındakı əlaqəni göstərmək üçün `lineplot()` funksiyasından istifadə edilmişdir.
+
+## Oyuncuların Potensialları və Gücləri - İstifadə olunan ayaq arasında
+- Bu analizdə potensial, güc və istifadə olunan ayaq arasındakı əlaqəni təhlil etmək üçün uyğun qrafik növləri istifadə olunmuşdur.
+
+## Dashboard
+- **Dashboard**: Layihənin sonunda bir 15x15 ölçülü fiqur yaradılmış və dörd subplot yerləşdirilərək yuxarıda qurulmuş qrafiklər bir dashboard-a inteqrasiya edilmişdir.
+
 
 Layihənin tam kodları və əlavə izahlar README-də təqdim olunmuşdur. Kod nümunələrini icra etmək üçün `Python 3.x` və yuxarıda göstərilən kitabxanaların quraşdırılması tələb olunur.
